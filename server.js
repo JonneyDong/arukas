@@ -128,7 +128,7 @@ app.get('/:appid',function(req,res){
 })
 
 app.get('/i', function (req, res) {
-    res.send('hello world');
+    res.send('http://51.ruyo.net');
 })
 
 app.listen(3999, function () {
