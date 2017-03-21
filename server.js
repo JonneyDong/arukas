@@ -128,7 +128,7 @@ app.get('/:appid',function(req,res){
 })
 
 app.get('/i', function (req, res) {
-    res.send('holl');
+    res.send('hello world');
 })
 
 app.listen(3999, function () {
