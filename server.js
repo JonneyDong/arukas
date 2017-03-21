@@ -20,7 +20,7 @@ if(args[0].indexOf('@') > -1)
 
 
 appid   =   args[2] || 'all',
-images  =   ["lixd1985/ss-with-net-speeder","lixd1985/ss"];
+images  =   ["lixd1985/ss-with-net-speeder"];
 
 
 app.get('/', function(req, res) {
